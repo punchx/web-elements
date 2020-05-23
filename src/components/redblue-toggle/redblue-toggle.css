@@ -1,0 +1,23 @@
+.redblue-toggle {
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  background-color: blue;
+  border-style: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.15s;
+}
+
+.redblue-toggle:hover {
+  background-color: rgb(77, 77, 255);
+}
+
+.redblue-toggle--toggled {
+  background-color: red;
+  transition: ease-in 0.15s;
+}
+
+.redblue-toggle--toggled:hover {
+  background-color: rgb(255, 57, 57);
+}
